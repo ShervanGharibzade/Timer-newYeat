@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-image: url('/assets/2022-12-31T174929Z_1091858740_RC22HY94KLN7_RTRMADP_3_NEW-YEAR-AUSTRALIA-FIREWORKS.webp');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-weight: normal;
+    text-shadow: 10px 10px 10px black;
+    font-size: 4rem;
+    position: relative;
+    top: -5rem;
+}
+
+.countiner{
+    display: flex;
+}
+
+.big-text{
+    text-shadow: 10px 10px 10px black;
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem; 
+}
+
+.cont{
+    text-align: center;
+}
+
+.cont span{
+    text-shadow: 10px 10px 10px black;
+    font-size: 1.5rem;
+}
